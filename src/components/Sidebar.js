@@ -6,7 +6,7 @@ import { FaTimes } from "react-icons/fa"
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <aside className={isOpen ? "sidebar show-sidebar" : "sidebar"}>
-      <button className="close-btn" type="button" onClick={toggleSidebar}><FaTimes /></button>
+      <button type="button" className="close-btn" onClick={toggleSidebar}><FaTimes /></button>
       <div className="side-container">
         <ul className={isOpen ? "sidebar-links" : null}>
           {links.map(link => {
@@ -34,4 +34,4 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     </aside>
   )
 }
-export default Sidebar
+export default Sidebar;
