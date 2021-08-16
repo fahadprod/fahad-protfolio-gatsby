@@ -21,4 +21,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default contact;

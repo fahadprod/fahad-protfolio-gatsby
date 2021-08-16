@@ -6,4 +6,4 @@ const SEO = ({ title }) => {
   return <Helmet title={title}></Helmet>
 }
 
-export default SEO
+export default SEO;

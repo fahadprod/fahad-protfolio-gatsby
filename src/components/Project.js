@@ -29,4 +29,4 @@ const Project = ({ description, title, github, stack, url, image, index, slug })
     </article>
   )
 }
-export default Project
+export default Project;
